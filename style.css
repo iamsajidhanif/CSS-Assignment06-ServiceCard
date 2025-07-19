@@ -1,0 +1,117 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    height: 842px;
+    width: 1653px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#webDesign {
+    background-color: #F37E48;
+}
+
+#webDevelopment {
+    background-color: #EC6C9C;
+}
+
+#responsiveDesign {
+    background-color: #8673B4;
+}
+
+#brandBuilding {
+    background-color: #5197ED;
+}
+
+.card {
+    height: 360px;
+    width: 280px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover {
+    box-shadow:
+        0 -4px 20px -4px rgba(0, 0, 0, 0.3),
+        0 4px 20px -4px rgba(0, 0, 0, 0.3);
+}
+
+.white {
+    height: 260px;
+    width: 280px;
+    background-color: white;
+    box-shadow:
+        0 -4px 20px -4px rgba(0, 0, 0, 0.3),
+        0 4px 20px -4px rgba(0, 0, 0, 0.3);
+
+}
+
+.fa-globe {
+    font-size: 45px;
+    color: #F37E48;
+    padding-top: 20px;
+    margin-left: 120px;
+}
+
+#heading1 {
+    color: #F37E48;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+p {
+    text-align: center;
+    line-height: 25px;
+    color: gray;
+}
+
+.fa-rocket {
+    font-size: 45px;
+    color: #EC6C9C;
+    padding-top: 20px;
+    margin-left: 120px;
+}
+
+#heading2 {
+    color: #EC6C9C;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.fa-mobile {
+    font-size: 45px;
+    color: #8673B4;
+    padding-top: 20px;
+    margin-left: 120px;
+}
+
+.fa-briefcase {
+    font-size: 45px;
+    color: #5197ED;
+    padding-top: 20px;
+    margin-left: 120px;
+}
+
+#heading3 {
+    color: #8673B4;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#heading4 {
+    color: #5197ED;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
